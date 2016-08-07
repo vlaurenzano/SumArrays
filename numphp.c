@@ -78,7 +78,6 @@ PHP_FUNCTION(sum_arrays)
 	zval * zv2;
     zend_string *key;
     uint i, j;
-    double z;
     Bucket *p;
 
     ZEND_PARSE_PARAMETERS_START(2,"a");
