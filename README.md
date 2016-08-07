@@ -9,9 +9,20 @@ function php_sum_arrays($arrayOne, $arrayTwo){
 	}
 	return $sum;
 }
-
+```
 It runs at 4 to 6 times the speed of the php code. 
 
+#Installation
+
+Not suitable for production but..
+
+```
+Make folder
+CD into folder
+git clone https://github.com/vlaurenzano/SumArrays.git 
+phpize
+sudo make install
+add extension=numphp.so to your ini file
 
 
 
